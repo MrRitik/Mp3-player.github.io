@@ -109,12 +109,38 @@ nav ul li{
 
 .songInfo img{
     opacity: 0;
-    transition: opacity 0.4s ease-in;
+    transition: opacity 0.4s ease-in;  
 }
 
-/* @media only screen and (max-width: 1100px) {
-    body {
-      background-color: red;
-    }
-  } */
+@media only screen and (max-width:500px) {
+   body{
+    background-color: antiquewhite;
+   }
+   .nav{
+    height: 2rem;
+    width: 1px;
+   }
+   .songItem{
+    width: 16rem;
+   }
+   .container{
+    width: 65%;
+   }
+   .bottom{
+    position: sticky;
+   }
+   .songInfo{
+    display: contents;
+   
+
+   }
+   .songList{
+    width: 100%;
+   }
+   .songlistplay{
+    font-size: 1.5rem;
+    padding: 1rem;
+   }
+
+  }
 
